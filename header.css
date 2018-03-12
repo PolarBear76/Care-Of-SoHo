@@ -1,0 +1,224 @@
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navBar {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #F0F0F0;
+  margin :0px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  z-index: 4;
+}
+
+.links {
+  margin-right: 35px;
+  margin-left: 20px;
+  padding-top: 10px;
+  /*font-size: 20px;*/
+  margin-bottom: 10px;
+  display: inline-block;
+  z-index: 3;
+}
+
+#unbrokenBehandlingarPil {
+  display: none;
+}
+
+#dropDownPanel {
+  background: #E3E3E3;
+  text-align: center;
+  position: absolute;
+  /*padding-left: 10px;*/
+  padding-top: 20px;
+  top: 55px;
+  width: 230px;
+  font-size: 16px;
+  z-index: 3;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}
+
+#menuButton {
+  /*margin-left: 2.5vw;*/
+  margin-right: 15vw;
+  height: 25px;
+	width: 30px;
+	margin-top: 15px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  display: none;
+}
+
+.buttonLine {
+	height: 1.5px;
+	background-color: black;
+	margin: auto;
+	margin-bottom: 3px;
+	transition-duration: 0.5s;
+  position:absolute;
+  width: 30px;
+}
+
+#topBL {
+	top: 1px;
+}
+
+#lowBL {
+	top: 7px;
+}
+
+#behandlingar {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#behandlingCollection {
+  margin-left: 0px;
+  display: inline-block;
+  margin-right: 35px;
+  padding-bottom: 20px;
+}
+
+.behandlingarPilar {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  transition-duration: 0.5s;
+}
+
+#logo {
+  font-size: 24px;
+  text-align: center;
+  clear: both;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#bokaKnapp {
+  width: 100px;
+  height: 25px;
+  color: white;
+  background: #d95379;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  margin-right: 5vw;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#unbrokenBehandlingar {
+  display: inline-block;
+}
+
+#bokaDropdown {
+  width: 100%;
+  color: white;
+  /*background: #EF5FA7;*/
+  background: #d95379;
+  text-align: center;
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  display: none;
+  z-index: 3;
+}
+
+.broken {
+  display: none;
+}
+
+.unbroken {
+  display: block;
+}
+
+#unbrokenCollection .links {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (min-width: 801px) {
+#dropDownPanel #unbrokenCollection .links {
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+}
+
+}
+
+@media (max-width: 800px) {
+ #bokaKnapp {
+    display: none;
+  }
+
+  #dropDownPanel {
+    left: 0px;
+    width: 100%;
+    font-size: 16px;
+    margin:auto;
+  }
+
+  #collapse {
+    display: none;
+  }
+
+  .broken {
+    display: block !important;
+  }
+  .links {
+  display: block;
+}
+
+  .unbroken {
+    display: none !important;
+  }
+
+  #menuButton {
+    display: inline-block;
+    float: right;
+  }
+
+  #bokaDropdown {
+    display: block;
+  }
+
+.unbrokenBehandlingar div {
+  display: inline-block;
+}
+
+#logo {
+  margin-left: -0px;
+}
+
+  .links {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+}

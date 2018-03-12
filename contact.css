@@ -1,0 +1,84 @@
+.header {
+	font-size: 5em;
+	color: #2F2F2F;
+	margin-top: 100px;
+	margin-left: 2vw;
+}
+
+#smallerHeader {
+	font-size: 3em;
+	color:#5F5F5F;
+	margin-top: 0px;
+}
+
+#mapAndInfo {
+	width: 60%;
+	min-height: 500px;
+	background: #E0E0E0;
+	margin-left: 2vw;
+	padding: 10px;
+	padding-right: 20px;
+	overflow: auto;
+	max-width: 900px;
+}
+
+.contactInfo {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+#contactInfoCollection {
+	float:right;
+	text-align: right;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#mapObject {
+	width:600px;
+	height:450px;
+}
+
+#openHoursLabel {
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+.openHours {
+	font-weight: bold;
+}
+
+#formDiv {
+	width: 60%;
+	background: #db859f;
+	padding: 20px;
+	margin-top: 40px;
+	margin-left: 2vw;
+}
+
+label {
+	font-size: 18px;
+}
+
+input {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+@media (max-width: 1000px) {
+	#mapObject {
+		width:90%;
+	}
+
+	#mapAndInfo {
+		padding: 10px;
+	}
+
+	.header {
+		font-size: 3em;
+	}
+
+	#smallerHeader {
+		font-size: 2em;
+	}
+}

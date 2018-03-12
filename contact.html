@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<link href="general.css" rel="stylesheet">
+			<link href="header.css" rel="stylesheet">
+			<link href="contact.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Care Of SoHo</title>
+		</head>
+		<body>
+		<nav id="navBar">
+      <a href="index.html"><div id="logo">Care Of SoHo</div></a>
+      <div id="menuButton">
+        <div id="topBL" class="buttonLine"></div>
+        <div id="lowBL" class="buttonLine"></div>
+      </div>
+      <div id="collapse">
+       <div id="behandlingCollection">
+          <a id="behandlingar">BEHANDLINGAR</a> 
+          <div class="behandlingarPilar" id="behandlingarPil"></div>
+        </div>
+        <a href="slideShow.html"><div class="links">BILDER</div></a>
+        <a href="contact.html"><div class="links">KONTAKT</div></a>
+        <a href="http://www.bokadirekt.se/Bookings/Default.aspx?sru=11913"><div id="bokaKnapp">BOKA TID</div></a>
+      </div>
+    </nav>
+
+    <div id="dropDownPanel">
+      <a href="slideShow.html"><div class="links broken">BILDER</div></a>
+      <a href="contact.html"><div class="links broken">KONTAKT</div></a>
+      <div id="unbrokenBehandlingar">
+          <div class="links broken" >BEHANDLINGAR</div> 
+          <div class="behandlingarPilar" id="unbrokenBehandlingarPil"></div>
+      </div>
+      <div id="unbrokenCollection">
+        <a href="ansiktsbehandlingar.html"> <div class="links">BEHANDLINGAR</div></a>
+        <a href="fransar.html"><div class="links">ATT TÄNKA PÅ - FRANSFÖRLÄNGNING</div></a>
+        <a href="microblandning.html"><div class="links" >ATT TÄNKA PÅ - MICROBLANDNING</div></a>
+      </div>
+      <a href="http://www.bokadirekt.se/Bookings/Default.aspx?sru=11913"><div id="bokaDropdown">BOKA TID</div></a>
+    </div>
+    <div id="container">
+    	<div class="header">kontakt</div>
+
+    	<div id="mapAndInfo">
+    		<iframe id="mapObject" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.0446258105992!2d18.06159541635114!3d59.315511781654045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e581e4e987%3A0xa8995d4ee8372e15!2sH%C3%B6gbergsgatan+60%2C+118+54+Stockholm!5e0!3m2!1ssv!2sse!4v1517759153369" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    		<div id="contactInfoCollection">
+    			<div class="contactInfo">högbersgatan 60</div>
+    			<div class="contactInfo">070 - 424 55 94</div>
+    			<div class="contactInfo">info@careofsoho.se</div>
+    			<div id="openHoursLabel" class="contactInfo">öppettider</div>
+    			<div class="contactInfo">måndag - fredag <span class="openHours">10.00 - 18.00</span></div>
+    			<div class="contactInfo">lördag <span class="openHours">10.00 - 15.00</span></div>
+    			<div class="contactInfo">söndag <span class="openHours">efter överenskommelse</span></div>
+    		</div>
+    </div>
+
+    <div class="header">skicka en bokningsförfrågan</div>
+    <div class="header" id="smallerHeader">(om du inte hittar en tid som passar)</div>
+    <div id="formDiv">
+      <form action="mailto:axel.kaliff@gmail.com" method="GET" enctype="text/plain">
+        <label>Namn:</label><br>
+        <input type="text" name="name" required><br>
+        <label>E-mail:</label><br>
+        <input type="text" name="mail" required><br>
+         <label>Telefon:</label><br>
+        <input type="text" name="phone"><br>
+        <label>Behandling</label><br>
+        <select name="Asikt" size="1" required><br>
+          <option value="nope">--</option>
+          <option value="Ansiktsbehandling">Ansiktsbehandling</option>
+          <option value="Fransforlangning">Fransförlängning</option>
+          <option value="Kosmetisk pigmentering">Kosmetisk pigmentering</option>
+          <option value="4">IPL</option>
+          <option value="5">Annat</option>
+        </select>(*)<br><br>
+         <label>Meddelande:</label><br>
+        <textarea type="text" name="comment" size="50" rows="3" cols="50"></textarea><br><br>
+        <input type="submit" value="Send">
+      </form>
+
+    </div>
+  </div>
+
+    		
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script src="soho.js"></script>
+		</body>
+</html>

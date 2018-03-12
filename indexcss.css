@@ -1,0 +1,94 @@
+#header {
+	font-size: 3.7em;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #262525;
+}
+
+.sponsorImage {
+	display: inline-block;
+	height: auto;
+	width: 10vw;
+	max-width: 140px;
+	min-width: 100px;
+}
+
+#sponsorDiv {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+.copyText {
+	max-width: 70%;
+	font-size: 1.5em;
+	margin-left: 40px;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.bokaCopy {
+	width: 200px;
+	height: 50px;
+	font-size: 2em;
+	padding-top: 15px;
+	text-align: center;
+	background: #d95379;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 40px;
+	float: right;
+	display: inline-block;
+}
+
+.bokaCopy a {
+	color: white;
+}
+
+.subErbjudande {
+	margin-right: 20px;
+}
+#copyCollection {
+	display: inline-block;
+	width: 100%;
+}
+
+#erbjudandeCollection {
+	margin-top: 50px;
+	display: inline-block;
+	text-align: right;
+	width: 90%;
+	background: #db859f;
+	padding: 25px;
+	padding-right: 10%;
+	color:white;
+}
+
+.erbjudandeTitle {
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.erbjudande {
+	font-size: 1.5em;
+	margin-right: 35px;
+}
+
+#erbjudandeHeader {
+	font-size: 3.5em;
+	font-weight: lighter;
+}
+
+@media (max-width: 800px) {
+	#erbjudandeCollection {
+		text-align: center;
+	}
+
+	#erbjudandeCollection div {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	}

@@ -1,0 +1,152 @@
+.header {
+	font-size: 5em;
+	color: #8F8F8F;
+	margin-top: 100px;
+	margin-left: 2.3vw;
+}
+
+.product {
+	width: 550px;
+	height: 150px;
+	border: 3px solid #E2E2E2;
+	margin-top: 80px;
+	margin-left: 40px;
+	margin-right: 0px;
+	padding: 15px;
+	display: inline-block;
+	/*text-align: center;*/
+	background: #E2E2E2;
+}
+
+.productTitle {
+	font-size: 1.55em;
+	font-weight: bold;
+	width: 100%;
+	height: 45px;
+	/*padding-bottom: 10px;*/
+}
+
+.productDesc {
+	font-size: 1em;
+	/*margin-top: 10px;*/
+	width: 100%;
+	height: 55px;
+}
+
+.productTime {
+	font-size: 1.4em;
+	font-weight: bolder;
+	color: #878787;
+	margin-top: 25px;
+	/*width: 100%;*/
+	height: 20px;
+	display: inline-block;
+}
+
+.productPrice {
+	font-size: 1.4em;
+	font-weight: bolder;
+	color: #EB7A90;
+	margin-top: 25px;
+	/*width: 100%;*/
+	height: 20px;
+	float: right;
+	display: inline-block;
+}
+
+.smallTitle {
+	font-size: 1.4em;
+}
+
+.smaller {
+	font-size: 1em;
+}
+
+.small {
+	height: 30px;
+}
+
+.small .productTitle {
+	display: inline-block;
+	width: auto;
+}
+
+.small .productDesc{
+	height: 0px;
+}
+
+.small .productPrice{
+	display: inline-block;
+	margin-top: 0px;
+}
+
+/*.productCollection {
+	width: 100%;
+	text-align: center;
+}*/
+
+@media (max-width: 700px) {
+	.header {
+		font-size: 2.5em;
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	.product {
+		width: 300px;
+		height: 250px;
+		/*margin-left: 10px;*/
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.productDesc {
+		font-size: 1em;
+		margin-top: 10px;
+		width: 100%;
+		height: auto;
+	}
+
+	.productTime {
+		margin-top: 25px;
+		
+		height: 20px;
+	}
+
+	.productPrice {
+		margin-top: 25px;
+		
+		height: 20px;
+	}
+
+	.productTitle {
+		margin-bottom: 20px;
+		height: auto;
+	}
+
+	.productCollection {
+	width: 100%;
+	text-align: center;
+}
+
+
+.small {
+	height: 100px;
+}
+.small .productTitle {
+	display: block;
+	width: auto;
+}
+
+.small .productDesc{
+	height: 0px;
+}
+
+.small .productPrice{
+	text-align: center;
+	margin-top: 20px;
+	display: block;
+	float: none;
+}
+
+	}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<link href="general.css" rel="stylesheet">
+			<link href="header.css" rel="stylesheet">
+			<link href="slideShow.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Care Of SoHo</title>
+		</head>
+		<body>
+		    <nav id="navBar">
+      <a href="index.html"><div id="logo">Care Of SoHo</div></a>
+      <div id="menuButton">
+        <div id="topBL" class="buttonLine"></div>
+        <div id="lowBL" class="buttonLine"></div>
+      </div>
+      <div id="collapse">
+       <div id="behandlingCollection">
+          <a id="behandlingar">BEHANDLINGAR</a> 
+          <div class="behandlingarPilar" id="behandlingarPil"></div>
+        </div>
+        <a href="slideShow.html"><div class="links">BILDER</div></a>
+        <a href="contact.html"><div class="links">KONTAKT</div></a>
+        <a href="http://www.bokadirekt.se/Bookings/Default.aspx?sru=11913"><div id="bokaKnapp">BOKA TID</div></a>
+      </div>
+    </nav>
+
+    <div id="dropDownPanel">
+      <a href="slideShow.html"><div class="links broken">BILDER</div></a>
+      <a href="contact.html"><div class="links broken">KONTAKT</div></a>
+      <div id="unbrokenBehandlingar">
+          <div class="links broken" >BEHANDLINGAR</div> 
+          <div class="behandlingarPilar" id="unbrokenBehandlingarPil"></div>
+      </div>
+      <div id="unbrokenCollection">
+        <a href="ansiktsbehandlingar.html"> <div class="links">BEHANDLINGAR</div></a>
+        <a href="fransar.html"><div class="links">ATT TÄNKA PÅ - FRANSFÖRLÄNGNING</div></a>
+        <a href="microblandning.html"><div class="links" >ATT TÄNKA PÅ - MICROBLANDNING</div></a>
+      </div>
+      <a href="http://www.bokadirekt.se/Bookings/Default.aspx?sru=11913"><div id="bokaDropdown">BOKA TID</div></a>
+    </div>
+    
+    <div id="container">
+      <div id="imageAndSlidesCollection">
+        <div id="backSlide" class="slides">
+        <div id="upperSlideLineLeft" class="slideLine"></div>
+        <div id="bottomSlideLineLeft" class="slideLine"></div>
+        </div>
+          <img id="slideImage" src="bilder/slides/2d3d.png">
+       <div id="frontSlide" class="slides"> 
+        <div id="upperSlideLineRight" class="slideLine"></div>
+        <div id="bottomSlideLineRight" class="slideLine"></div>
+      </div>
+    </div>
+
+      <div id="slideTitle">2D + 3D volym fransar ger en naturlig look</div>
+
+    </div>
+
+    		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="soho.js"></script>
+  <script src="slideShow.js"></script>
+		</body>
+</html>
